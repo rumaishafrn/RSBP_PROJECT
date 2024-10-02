@@ -5,7 +5,7 @@
   | Name             | NRP              |
 |------------------|-------------|
 | Rumaisha Afrina        | 5025221146          |
-| Helsa Sriprameswari Putri      | 34          |
+| Helsa Sriprameswari Putri      | 5025221154         |
 | Aurelia Natasya Putri       | 5025221237          |
 
 </div>

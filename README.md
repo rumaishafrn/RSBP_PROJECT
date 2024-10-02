@@ -6,7 +6,7 @@
 |------------------|-------------|
 | Rumaisha Afrina        | 5025221146          |
 | Helsa Sriprameswari Putri      | 34          |
-| Aurelia Natasya Putri       | 22          |
+| Aurelia Natasya Putri       | 5025221237          |
 
 </div>
 

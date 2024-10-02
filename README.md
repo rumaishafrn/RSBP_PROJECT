@@ -20,6 +20,7 @@ Penelitian ini bertujuan untuk mengeksplorasi penerapan algoritma YOLO dalam men
 
 
 # Method
+![image](https://github.com/user-attachments/assets/9f237722-abd0-4ab4-a801-8c8d9b627cae)
 
 ## 1. Creating Datasets
 Proses ini dimulai dengan pemanfaatan kamera pengawas, seperti kamera drone atau kamera yang dipasang di kapal, untuk merekam gambar atau video dari permukaan air. Penting untuk memperhatikan kondisi pencatatan, seperti waktu, cuaca, dan variasi lingkungan, guna memastikan kualitas gambar yang diambil. Jika dataset yang relevan sudah tersedia, tim dapat memanfaatkannya; jika tidak, mereka perlu membangun dataset baru dengan merekam gambar secara manual dan memberi label pada setiap gambar. Seluruh pengambilan data harus didokumentasikan dengan baik, mencakup informasi seperti lokasi, waktu, dan kondisi lingkungan, untuk mendukung analisis lebih lanjut. 
@@ -37,6 +38,7 @@ Proses implementasi YOLO dilakukan menggunakan Google Collaboratory, yang menyed
 
 
 # Datasets
+![image](https://github.com/user-attachments/assets/43201a33-58ce-4aae-8e54-44986d6c0979)
 
 # Output
 

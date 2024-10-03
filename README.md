@@ -40,6 +40,15 @@ Proses implementasi YOLO dilakukan menggunakan Google Collaboratory, yang menyed
 
 
 # YOLO v5 Installation
+### Step 1 : Unduh Git dan Pyhton
+### Step 2 : Clone Repository YOLOv5
+Untuk mengclone repository YOLOv5 dapat dilakukan dengan memasukkan command berikut di CLI : `git clone https://github.com/ultralytics/yolov5.git`
+### Step 3 : Install Dependencies
+Masuk ke directory yolov5 dan install dependencies yang diperlukan : `pip install -r requirements.txt`
+### Step 4 : Testing YOLOv5
+Berikutnya, dapat dicoba model dengan gambar atau video. Contoh untuk deteksi objek pada gambar menggunakan model yang sudah dilatih sebelumnya: `python detect.py --source data/images/bus.jpg --weights yolov5s.pt --conf 0.25`
+Parameter --weights mengacu pada model pra-latih yang tersedia di YOLOv5, seperti `yolov5s.pt` (versi kecil), `yolov5m.pt` (medium), `yolov5l.pt` (large), dan `yolov5x.pt` (extra-large).
+
 
 
 # Datasets

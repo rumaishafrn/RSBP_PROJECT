@@ -26,6 +26,11 @@ Penelitian ini bertujuan untuk mengeksplorasi penerapan algoritma YOLO dalam men
 Proses ini dimulai dengan pemanfaatan kamera pengawas, seperti kamera drone atau kamera yang dipasang di kapal, untuk merekam gambar atau video dari permukaan air. Penting untuk memperhatikan kondisi pencatatan, seperti waktu, cuaca, dan variasi lingkungan, guna memastikan kualitas gambar yang diambil. Jika dataset yang relevan sudah tersedia, tim dapat memanfaatkannya; jika tidak, mereka perlu membangun dataset baru dengan merekam gambar secara manual dan memberi label pada setiap gambar. Seluruh pengambilan data harus didokumentasikan dengan baik, mencakup informasi seperti lokasi, waktu, dan kondisi lingkungan, untuk mendukung analisis lebih lanjut. 
 
 ## 2. Prepocessing Data
+Sebelum model YOLO diterapkan, data yang dikumpulkan perlu diproses terlebih dahulu untuk memastikan kualitasnya sesuai dengan kebutuhan model, atau sebuah proses yang disebut dengan preprocessing.
+
+![preprocessing](https://github.com/rumaishafrn/RSBP_PROJECT/blob/main/img/preprocessing.png)
+
+Preprocessing seperti labelling, split data, auto-orient, resize, dan augmentation yang dimana berguna untuk pengembangan dataset akhir. Dengan mengubah data mentah menjadi data yang siap untuk dilatih. Dalam konteks ini, preprocessing data menjadi langkah yang penting, yang melibatkan serangkaian teknik dan metode untuk membersihkan, mengubah, dan memformat data agar dapat diproses oleh algoritma Machine Learning atau analisis data.
 
 ## 3. Implementasi algoritma You Only Look Once (YOLO)
 

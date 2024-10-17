@@ -83,12 +83,6 @@ Setelah memasukkan dataset yang telah kami gunakan ke dalam Notebook, training d
 ### Memasukkan ke YoloV5
 Apabila training sudah selesai dilakukan, akan muncul file baru bernama `best.pt`. File ini akan di download lalu akan dimasukkan ke folder yolov5 yang telah di clone dari github. Di dalam folder yolov5 ini, run `detect.py` untuk memulai programnya. 
 
-### 1. Install Requirements
-### 2.  Assemble Our Dataset
-### 3. Train Our Custom YOLOv5 model
-
-
-
 # Output
 
 

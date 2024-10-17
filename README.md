@@ -52,16 +52,17 @@ Masuk ke directory yolov5 dan install dependencies yang diperlukan :
 pip install -r requirements.txt
 ```
 ### Step 4 : Testing YOLOv5
-Berikutnya, dapat dicoba model dengan gambar atau video. Contoh untuk deteksi objek pada gambar menggunakan model yang sudah dilatih sebelumnya:
-```
-python detect.py --source data/images/bus.jpg --weights yolov5s.pt --conf 0.25
-```
-Parameter --weights mengacu pada model pra-latih yang tersedia di YOLOv5, seperti `yolov5s.pt` (versi kecil), `yolov5m.pt` (medium), `yolov5l.pt` (large), dan `yolov5x.pt` (extra-large).
+### Datasets
+
+![image](https://github.com/user-attachments/assets/29a8c808-8580-4d50-b625-78c7f320c1b6)
+
+Dataset yang digunakan dibuat atau ditrain menggunakan google collab
+https://universe.roboflow.com/pfefloatingdebris/floating-marine-litter-detection/dataset/10 
+### 1. Install Requirements
+### 2.  Assemble Our Dataset
+### 3. Train Our Custom YOLOv5 model
 
 
-
-# Datasets
-![image](https://github.com/user-attachments/assets/43201a33-58ce-4aae-8e54-44986d6c0979)
 
 # Output
 

@@ -66,6 +66,22 @@ https://universe.roboflow.com/pfefloatingdebris/floating-marine-litter-detection
 Untuk database ini, terdapat banyak class seperti bottle cap, juice box, plastic, plastic bag, plastic bottle, dll.
 ![Screenshot 2024-10-17 141244](https://github.com/user-attachments/assets/abb86368-9199-4d23-853d-b3cbdac1739f)
 
+### Training Dataset
+Untuk training dataset, kami menggunakan Collab Notebook dari link berikut ini : 
+https://colab.research.google.com/drive/1gIR5oFGLqKckQIKoJs6wyOh4dlmdziQx
+
+Setelah memasukkan dataset yang telah kami gunakan ke dalam Notebook, training dataset pun dimulai. Traiing dataset diinisiasi dengan menggunakan command berikut ini :
+`!python train.py --img 640 --batch 64 --epochs 10 --data data/data.yaml --weights yolov5n.pt --cache --optimizer Adam --project plastikver2 --name yolov5n10e`
+
+- img: define input image size
+- batch: determine batch size
+- epochs: define the number of training epochs. (Note: often, 3000+ are common here!)
+- data: Our dataset locaiton is saved in the dataset.location
+- weights: specify a path to weights to start transfer learning from. Here we choose the generic COCO pretrained checkpoint.
+- cache: cache images for faster training
+
+### Memasukkan ke YoloV5
+Apabila training sudah selesai dilakukan, akan muncul file baru bernama `best.pt`. File ini akan di download lalu akan dimasukkan ke folder yolov5 yang telah di clone dari github. Di dalam folder yolov5 ini, run `detect.py` untuk memulai programnya. 
 
 ### 1. Install Requirements
 ### 2.  Assemble Our Dataset

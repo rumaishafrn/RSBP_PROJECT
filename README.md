@@ -58,7 +58,14 @@ pip install -r requirements.txt
 
 Dataset yang digunakan dibuat atau ditrain menggunakan google collab <br>
 https://universe.roboflow.com/rsbpproject/waste_classification-koank <br>
+Untuk database ini, terdapat 3 class : plastic-bag, plastic-bottle, plastic-glass
+![image](https://github.com/user-attachments/assets/40547d41-23c3-4fb8-811c-a70b49ddf3ce)
+
+
 https://universe.roboflow.com/pfefloatingdebris/floating-marine-litter-detection/dataset/10 <br>
+Untuk database ini, terdapat banyak class seperti bottle cap, juice box, plastic, plastic bag, plastic bottle, dll.
+![Screenshot 2024-10-17 141244](https://github.com/user-attachments/assets/abb86368-9199-4d23-853d-b3cbdac1739f)
+
 
 ### 1. Install Requirements
 ### 2.  Assemble Our Dataset

@@ -56,8 +56,10 @@ pip install -r requirements.txt
 
 ![image](https://github.com/user-attachments/assets/29a8c808-8580-4d50-b625-78c7f320c1b6)
 
-Dataset yang digunakan dibuat atau ditrain menggunakan google collab
+Dataset yang digunakan dibuat atau ditrain menggunakan google collab <br.>
+https://universe.roboflow.com/rsbpproject/waste_classification-koank
 https://universe.roboflow.com/pfefloatingdebris/floating-marine-litter-detection/dataset/10 
+
 ### 1. Install Requirements
 ### 2.  Assemble Our Dataset
 ### 3. Train Our Custom YOLOv5 model
